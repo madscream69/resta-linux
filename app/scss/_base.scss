@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0; 
+}
+  
+*,
+*::after,
+*::before {
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-grey-dark-2);
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+
+//temp
+h1{
+  font-size: 6rem;
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'lg';
+//   src: url("../fonts/lg.woff2") format("woff2"),
+//       url("../fonts/lg.woff") format("woff"),
+//       url("../fonts/lg.svg") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+.flaticon-food:before { content: "\f100"; }
+.flaticon-kitchen:before { content: "\f101"; }
+.flaticon-lunch:before { content: "\f102"; }

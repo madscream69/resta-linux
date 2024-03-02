@@ -1,0 +1,119 @@
+.about{
+    background-color: #FFFBF5;
+    padding-top: 16rem;
+    padding-bottom: 32rem;
+    position: relative;
+
+    &__text{
+        //text-align: center;
+
+        & h3{
+            font-size: 5rem;
+            font-family: "Philosopher", sans-serif;
+            color: #001D38;
+            line-height: 6rem;
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+        p{
+            max-width: 54rem;
+            font-size: 1.6rem;
+            line-height: 2.8rem;
+            color: #596672;
+            margin-bottom: 5rem;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+
+    &__images{
+        position: relative;
+    }
+}
+
+.img1{
+    padding-left: 8rem;
+
+    & img{
+        border-radius: 2rem;
+        width: 100%;
+    }
+}
+
+.img2{
+    position: absolute;
+    margin-top: -17rem;
+    border-radius: 2rem;
+    border: 1rem solid #fff;
+
+    & img{
+        border-radius: 2rem;
+        width: 100%;
+    }   
+}
+
+.food-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+
+    li{
+        display: flex;
+        align-items: center;
+
+        // & img{
+        //     margin-right: 1rem;
+        // }
+
+        & span{
+            padding-left: 14px;
+            color: #DB9A64;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    & li:not(:last-child){
+        margin-right: 4rem;
+    }
+}
+
+.line{
+    height: 3px;
+    width: 70px;
+    background: #DB9A64;
+    display: inline-block;
+    margin-bottom: 34px;
+    margin-top: 17px;
+}
+
+.container{
+    max-width: 114rem; // adpativno nada
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+//icons
+.icon-1{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+
+    & img{
+        vertical-align: middle;
+        border-style: none;
+
+    }
+}
+.icon-2{
+    position: absolute;
+    bottom: -12%;
+    left: 6%;
+}
+.icon-3{
+    position: absolute;
+    right: 4%;
+    bottom: 10%;
+}

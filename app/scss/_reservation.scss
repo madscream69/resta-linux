@@ -1,0 +1,31 @@
+.reservation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 14rem;
+    padding-bottom: 13rem;
+    & h3{
+        font-family: "Philosopher", sans-serif;
+        font-size: 5rem;
+        font-weight: 700;
+        color: #001D38;
+        position: relative;
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+
+.book-form{
+    // margin-bottom: 30px;
+    background: #DB9A64;
+    padding: 34px 40px;
+
+}

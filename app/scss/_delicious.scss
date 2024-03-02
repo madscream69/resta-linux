@@ -1,0 +1,140 @@
+.delicious{
+    background-color: #fff;
+    padding-top: 15rem;
+    padding-bottom: 11rem;
+
+    & h3{
+        font-size: 5rem;
+        font-family: "Philosopher", sans-serif;
+        color: #001D38;
+        line-height: 6rem;
+        font-weight: 700;
+
+        margin-bottom: 5rem;
+    }
+}
+.container-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-menu{
+    border-bottom: .1rem solid #E5E8EA;
+    margin-bottom: 6rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+
+        & li{
+            margin: 0 2.5rem;
+        }
+    }
+}
+
+.nav-menu{
+    position: relative;
+    padding: 0 1.2rem .2rem 1.2rem;
+    transition: all .3s;
+    text-align: center;
+    color: #596672;
+    display: block;
+
+    & h4{
+        margin-bottom: 0;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: inherit;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.icon{
+
+    & i{
+        font-size: 5rem;
+        color: inherit;
+    }
+}
+
+.nav-menu--active{
+    color: #DB9A64;
+    
+    
+    &::before{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        height: .2rem;
+        content: '';
+        background: #DB9A64;
+        
+    }
+}
+//MENU
+.menu--show{
+    display: block; 
+}
+.menu--hide{
+    display: none;
+}
+.menu{
+     // potom smenim na NONE
+
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.menu__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+
+    
+}
+
+.grid-element{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.grid-info{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    & h3{
+        color: #001D38;
+        font-size: 2.4rem;
+        margin-bottom: 0;
+        line-height: 3rem;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+
+
+    }
+
+    & p{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.6rem;
+        color: #596672;
+
+        overflow-wrap: normal;
+    }
+    & span{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        color: #DB9A64;
+    }
+}

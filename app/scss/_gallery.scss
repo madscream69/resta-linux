@@ -1,0 +1,43 @@
+.gallery-section{
+    padding-top: 16rem;
+
+    & h3{
+        font-family: "Philosopher", sans-serif;
+        font-size: 5rem;
+        font-weight: 700;
+        color: #001D38;
+        position: relative;
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+}
+.gallery{
+    width: 100%;
+
+    &--1{
+        display: grid;
+        grid-template-columns: 39% 30% 30%;
+        
+        & a{
+            overflow: hidden;
+            // border-right: .8rem solid #fff;
+            &:not(:last-child){
+                border-right: .8rem solid #fff;
+            }
+            border-bottom: .4rem solid #fff;
+
+            
+        }
+        
+    }
+    &--2{
+        display: grid;
+        grid-template-columns: 30% 30% 40% ;
+        
+        & a{
+            overflow: hidden;
+            border-right: .8rem solid #fff;
+        }
+        
+    }
+}
